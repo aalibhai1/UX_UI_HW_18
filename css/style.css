@@ -1,0 +1,114 @@
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    font-family: 'Yusei Magic', sans-serif;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+
+.flexContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1px;
+    margin: 10px;
+    
+
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.flex_child1{
+    width: 33%;
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.flex_child1 p{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#my_skills{
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+}
+
+.flex_child2{
+    width: 33%;
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.flex_child2 p{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+
+#code{
+    height: 500px;
+    width: 500px;
+    padding: 10px
+}
+
+.flex_child3{
+    width: 33%;
+    padding: 10px;
+    margin: 10px;
+    flex-grow: 1;
+}
+
+.flex_child2 p{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+
+#interaction_design{
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+}
+
+
+.workGrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "project_1 project_2"
+    "project_3 project_3"
+    ; 
+    
+}
+
+.workGrid img{
+    width: 100%;
+}
+.project_1{
+    grid-area: project_1;
+    padding: 10px;
+}
+
+.project_2{
+    grid-area: project_2;
+    padding: 10px;
+}
+
+.project_3{
+    grid-area: project_3;
+    padding: 10px;
+}
+
+
